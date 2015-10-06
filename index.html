@@ -1,0 +1,170 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/github-dark.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>CompanyOnTheWorld/Sphinx</title>
+  <meta name="description" content="Main repository for the Sphinx documentation builder">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">CompanyOnTheWorld/Sphinx</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">Main repository for the Sphinx documentation builder</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/CompanyOnTheWorld/sphinx/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/CompanyOnTheWorld/sphinx/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/CompanyOnTheWorld/sphinx" class="code">View CompanyOnTheWorld/Sphinx on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1></h1>
+
+<h1>
+<a id="readme-for-sphinx" class="anchor" href="#readme-for-sphinx" aria-hidden="true"><span class="octicon octicon-link"></span></a>README for Sphinx</h1>
+
+<p>This is the Sphinx documentation generator, see <a href="http://sphinx-doc.org/">http://sphinx-doc.org/</a>.</p>
+
+<h1>
+<a id="installing" class="anchor" href="#installing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installing</h1>
+
+<p>Install from PyPI to use stable version::</p>
+
+<p>pip install -U sphinx</p>
+
+<p>Install from PyPI to use beta version::</p>
+
+<p>pip install -U --pre sphinx</p>
+
+<p>Install from newest dev version in stable branch::</p>
+
+<p>pip install git+<a href="https://github.com/sphinx-doc/sphinx@stable">https://github.com/sphinx-doc/sphinx@stable</a></p>
+
+<p>Install from newest dev version in master branch::</p>
+
+<p>pip install git+<a href="https://github.com/sphinx-doc/sphinx">https://github.com/sphinx-doc/sphinx</a></p>
+
+<p>Install from cloned source::</p>
+
+<p>pip install .</p>
+
+<p>Install from cloned source as editable::</p>
+
+<p>pip install -e .</p>
+
+<h1>
+<a id="reading-the-docs" class="anchor" href="#reading-the-docs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reading the docs</h1>
+
+<p>After installing::</p>
+
+<p>cd doc
+   make html</p>
+
+<p>Then, direct your browser to <code>_build/html/index.html</code>.</p>
+
+<p>Or read them online at <a href="http://sphinx-doc.org/">http://sphinx-doc.org/</a>.</p>
+
+<h1>
+<a id="testing" class="anchor" href="#testing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Testing</h1>
+
+<p>To run the tests with the interpreter available as <code>python</code>, use::</p>
+
+<pre><code>make test
+</code></pre>
+
+<p>If you want to use a different interpreter, e.g. <code>python3</code>, use::</p>
+
+<pre><code>PYTHON=python3 make test
+</code></pre>
+
+<p>Continuous testing runs on travis:</p>
+
+<p>.. image:: <a href="https://travis-ci.org/sphinx-doc/sphinx.svg?branch=master">https://travis-ci.org/sphinx-doc/sphinx.svg?branch=master</a>
+   :target: <a href="https://travis-ci.org/sphinx-doc/sphinx">https://travis-ci.org/sphinx-doc/sphinx</a></p>
+
+<h1>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h1>
+
+<h1>
+<a id="-check-for-open-issues-or-open-a-fresh-issue-to-start-a-discussion-around-a" class="anchor" href="#-check-for-open-issues-or-open-a-fresh-issue-to-start-a-discussion-around-a" aria-hidden="true"><span class="octicon octicon-link"></span></a>. Check for open issues or open a fresh issue to start a discussion around a</h1>
+
+<p>feature idea or a bug.</p>
+
+<h1>
+<a id="-if-you-feel-uncomfortable-or-uncertain-about-an-issue-or-your-changes-feel" class="anchor" href="#-if-you-feel-uncomfortable-or-uncertain-about-an-issue-or-your-changes-feel" aria-hidden="true"><span class="octicon octicon-link"></span></a>. If you feel uncomfortable or uncertain about an issue or your changes, feel</h1>
+
+<p>free to email <a href="mailto:sphinx-dev@googlegroups.com">sphinx-dev@googlegroups.com</a>.</p>
+
+<h1>
+<a id="-fork-the-repository-on-github-httpsgithubcomsphinx-docsphinx" class="anchor" href="#-fork-the-repository-on-github-httpsgithubcomsphinx-docsphinx" aria-hidden="true"><span class="octicon octicon-link"></span></a>. Fork the repository on GitHub <a href="https://github.com/sphinx-doc/sphinx">https://github.com/sphinx-doc/sphinx</a>
+</h1>
+
+<p>to start making your changes to the <strong>master</strong> branch for next major
+   version, or <strong>stable</strong> branch for next minor version.</p>
+
+<h1>
+<a id="-write-a-test-which-shows-that-the-bug-was-fixed-or-that-the-feature-works" class="anchor" href="#-write-a-test-which-shows-that-the-bug-was-fixed-or-that-the-feature-works" aria-hidden="true"><span class="octicon octicon-link"></span></a>. Write a test which shows that the bug was fixed or that the feature works</h1>
+
+<p>as expected.  Use <code>make test</code> to run the test suite.</p>
+
+<h1>
+<a id="-send-a-pull-request-and-bug-the-maintainer-until-it-gets-merged-and" class="anchor" href="#-send-a-pull-request-and-bug-the-maintainer-until-it-gets-merged-and" aria-hidden="true"><span class="octicon octicon-link"></span></a>. Send a pull request and bug the maintainer until it gets merged and</h1>
+
+<p>published.  Make sure to add yourself to AUTHORS
+   <a href="https://github.com/sphinx-doc/sphinx/blob/master/AUTHORS">https://github.com/sphinx-doc/sphinx/blob/master/AUTHORS</a> and the change to
+   CHANGES <a href="https://github.com/sphinx-doc/sphinx/blob/master/CHANGES">https://github.com/sphinx-doc/sphinx/blob/master/CHANGES</a>.</p>
+
+<p>Please search and visit:</p>
+
+<p><a href="http://github.com/CompanyOnTheWorld">http://github.com/CompanyOnTheWorld</a> an team others with.</p>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/CompanyOnTheWorld" class="avatar"><img src="https://avatars0.githubusercontent.com/u/13640522?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/CompanyOnTheWorld">CompanyOnTheWorld</a> maintains <a href="https://github.com/CompanyOnTheWorld/sphinx">CompanyOnTheWorld/Sphinx</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/CompanyOnTheWorld/sphinx/tarball/master" class="tar">tar</a><a href="https://github.com/CompanyOnTheWorld/sphinx/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("supriyantomaftuh");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+</body>
+</html>
